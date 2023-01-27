@@ -1,0 +1,111 @@
+
+
+body{
+    width: 940px;
+    background: linear-gradient(rgb(48, 46, 46)25%,rgb(12, 85, 96));
+}
+body, .letra, .principal, .formato , .cajatexto, .mensaje, .cadena{
+    margin: 10px;
+    padding: 10px;
+}
+
+.logo:hover{
+    border-radius:80%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 20px 20px darkblue;
+    -webkit-box-shadow: 0px 5px 20px 20px #FFFFFF;
+    transform:  rotate(360deg);
+    transition: 2s;
+    -webkit-transform: rotate(360deg);
+}
+
+.principal{
+    display: inline-flex;
+}
+
+.formato, .cajatexto{
+    display: grid;
+    width: auto;
+
+}
+
+.cajatexto .bCopiar{
+    width: 150px;
+    height: 30px;
+    margin: 1px 1px 1px 65px;
+    padding: 5px;
+    border-radius: 12px;
+    border-width: 1px;
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+    border-shadow:darkblue;
+}
+
+.condicion{
+    margin: 1px 1px 1px 50px;
+    padding: 5px;
+    font-size: bold;
+}
+
+.texto{
+    width: 450px;
+    margin: 15px 20px 15px 100px;
+    font-size: 20px;
+    font-style: italic;
+    background-color: transparent;
+    border: transparent;
+    resize: none;
+    text-transform: lowercase;
+}
+
+.cambio{
+    width: 350px 100%;
+    height: 415px;
+    margin: 15px 20px 15px 10px;
+    font-size: 25px;
+    font-style: normal;
+    background-color: #c1bebe;
+    border-radius: 17px;
+    resize: none;
+}
+
+.botones{
+    margin: 5px 1px 5px 1px;
+    padding: 5px;
+    display: inline-block;
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+    border-shadow: 
+}
+
+.botones input{
+    width: 150px;
+    height: 30px;
+    margin: 5px 50px 5px 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border-width: 1px;
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+    border-shadow: 
+}
+
+.bEncriptar:hover, .bDesencriptar:hover, .bCopiar:hover{
+    color: #FFFFFF;
+    background: #0000CD;
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+    border-shadow:darkblue; 
+}
+
+.texto:focus{
+    outline: 0.5;
+}
